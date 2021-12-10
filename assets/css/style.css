@@ -73,3 +73,28 @@ footer h3 {
     margin: 0;
     position: relative;
 }
+
+/* footer style ends*/
+
+/*section one*/
+
+.profile {
+    background-image: url("../images/my-avatar.png");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+  }
+  .greet {
+    width: 35%;
+    text-align: initial;
+    margin: 3.5%;
+    color: whitesmoke;
+    font-size: 30px;
+    line-height: 1.5;
+  }
