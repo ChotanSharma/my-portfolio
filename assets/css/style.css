@@ -101,7 +101,7 @@ footer div ul li a:hover {
 /* footer style ends*/
 
 /*section one*/
-
+/* use of flexbox for whole section*/
 .profile {
     background-image: url("../images/my-avatar.png");
     height: 400px;
@@ -149,16 +149,15 @@ footer div ul li a:hover {
     margin: 3.5%;
     font-size: 15px;
 }
-
+/* use of flexbox for works section*/
 .works {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #fce138;
     border: white;
-    margin-bottom: 15px;
-    margin-left: 5px;
-
+    flex:auto;
+    margin-left: 10px solid;
 }
 
 .works-head {
@@ -169,19 +168,17 @@ footer div ul li a:hover {
     line-height: 1.2;
     font-size: 30px;
 }
-.works-img {
-    padding: 5px;
-    width: 75%;
-}
 
-.first-work {
-    background-image: url("../images/horiseon-img.png");
-    height: 400px;
-    width: 100%;
-    background-size:10px;
-    background-position: left;
+/*use of the nested flexbox */
+.works-img {
     display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    text-align: left;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+    flex: auto;
+    max-width: 100%;
+}
+.first-work h3 {
+    text-align: center;
+    font:bold;
 }
