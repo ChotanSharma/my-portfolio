@@ -42,7 +42,7 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+header nav ul li a{
     padding: 20px 35px;
     font-weight: lighter;
     font-size: 2.00vw;
@@ -60,19 +60,43 @@ header nav ul li a:hover {
 /* footer style starts */
 
 footer {
-    background: #fce138;
-    padding: 30px 35px;
+    padding: 20px 35px;
+    background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
     
-footer h3 {
-    color: #024e76;
-    font-size: 25pxpx;
+footer h1 {
+    font-weight: bold;
     margin: 0;
-    position: relative;
+    font-size: 36px;
+    color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+footer div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex: auto;
+}
+
+footer div ul li a{
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 2.50vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer div ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
 
 /* footer style ends*/
 
@@ -89,12 +113,75 @@ footer h3 {
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-  }
-  .greet {
+
+}
+.greet {
     width: 35%;
     text-align: initial;
     margin: 3.5%;
     color: whitesmoke;
     font-size: 30px;
     line-height: 1.5;
-  }
+}
+
+.my-bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #024e76;
+    border: white;
+    margin-bottom: 15px;
+}
+
+.bio-head{
+    width: 35%;
+    text-align: left;
+    margin: 3.5%;
+    color: #fff;
+    line-height: 1.2;
+    font-size: 30px;
+}
+
+.bio-text {
+    color: seashell;
+    padding: 20px;
+    width: 50%;
+    margin: 3.5%;
+    font-size: 15px;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fce138;
+    border: white;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+}
+
+.works-head {
+    width: 10%;
+    text-align: left;
+    margin: 3.5%;
+    color: #024e76;
+    line-height: 1.2;
+    font-size: 30px;
+}
+.works-img {
+    padding: 5px;
+    width: 75%;
+}
+
+.first-work {
+    background-image: url("../images/horiseon-img.png");
+    height: 400px;
+    width: 100%;
+    background-size:10px;
+    background-position: left;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: left;
+}
