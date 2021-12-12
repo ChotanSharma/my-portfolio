@@ -69,7 +69,9 @@ footer {
     
 footer h2 {
     font-weight: bold;
-    margin: 0;
+    margin-right: 0;
+    border-right: solid;
+    padding: 5px;
     font-size: 36px;
     color: #fce138;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -135,10 +137,9 @@ footer div ul li a:hover {
 }
 
 .bio-head{
-    flex: 0 0 15%;
+    flex: 0 0 12%;
     border-right: solid;
-    padding-right: 10%;
-    text-align: right;
+    text-align: left;
     margin: auto;
     color: #fff;
     font-size: 30px;
@@ -161,16 +162,16 @@ footer div ul li a:hover {
 }
 
 .head {
-    flex: 0 0 15%;
+    flex: 0 0 12%;
     border-right: solid;
     padding-right: 8%;
-    text-align: center;
+    text-align: right;
     color: blue;
     font-size: 30px;
 }
 
 .work-pic {
-    flex: 0 0 60%;
+    flex: 0 0 70%;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -190,6 +191,7 @@ footer div ul li a:hover {
 .row img {
     width: 100%;
 }
+
 
 text-wrapper {
     width: 100%;
