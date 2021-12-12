@@ -125,8 +125,9 @@ footer div ul li a:hover {
 }
 
 .my-bio {
-    flex: 0 0 60%;
+    display:flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #024e76;
     margin:auto;
     text-align: inline;
@@ -145,10 +146,11 @@ footer div ul li a:hover {
 }
 
 .bio-text {
+    flex: 0 0 60%;
+    flex-wrap: wrap;
     color: seashell;
-    padding: 20px;
-    width: 50%;
-    margin: 3.5%;
+    padding: 0;
+    margin: auto;
     font-size: 15px;
 }
 /* use of flexbox for works section*/
