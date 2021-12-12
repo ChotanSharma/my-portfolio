@@ -174,8 +174,8 @@ footer div ul li a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content:space-between;
-    text-align: right;
+    justify-content: left;
+    text-align: center;
     flex: auto;
     max-width: 100%;
 }
@@ -184,7 +184,7 @@ footer div ul li a:hover {
     font:bold;
 }
 
-.flex-row {
+.flex-row  {
     display: flex;
     justify-content: space-between;
     border: blanchedalmond;
