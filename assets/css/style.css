@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -153,57 +154,18 @@ footer div ul li a:hover {
     margin: auto;
     font-size: 15px;
 }
-/* use of flexbox for works section*/
-.works {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    background-color: darkgrey;
-}
 
-.head {
-    flex: 0 0 12%;
-    border-right: solid;
-    padding-right: 8%;
-    text-align: right;
-    color: blue;
-    font-size: 30px;
-}
+/* testing the codes for flexbox*/
+
 
 .work-pic {
-    flex: 0 0 70%;
-    padding: 10px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.row {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 15px;
-    padding: 10px;
-    flex: o 4 200px;
-    text-align: left;
-    
-}
 
-.row img {
-    width: 100%;
-}
-
-
-text-wrapper {
-    width: 100%;
-    position: relative;
-    margin-top: -40%;
-}
-
-.text-wrapper h3 {
-    text-align: end;
-    color: darkblue;
-    font: 5px;
-}
 @media screen and (max-width: 900px) {
 
     .profile {
